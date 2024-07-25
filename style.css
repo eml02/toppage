@@ -1,8 +1,15 @@
+body {
+    margin: 0px;
+    font-family: Roboto;
+}
+
 .header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
+    margin: 0px;
+    padding: 0px 150px;
 }
 
 .logotext {
@@ -18,4 +25,43 @@
 
 .herocontainer {
     display: flex;
+    justify-content: space-evenly;
+    padding: 100px;
+    background-color: #1f2937;
+    
+}
+
+.herotext {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.heromain {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.herosecondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.herobutton {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    border-color: #3882f6;
+    box-shadow: none;
+    width: 150px;
+    padding: 5px;
+}
+
+.imghero {
+    display: flex;
+    max-width: 500px;
+    padding: 50px;
 }
