@@ -74,11 +74,27 @@ body {
 
 .imagesandsubtextcontainer {
     display: flex;
-    
 }
 
+.imageandsubtext {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+}
+
+.subtext {
+    text-align: center;
+}
+
+.randomimg {
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+}
 .randominfotext {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+
 }
