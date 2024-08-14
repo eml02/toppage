@@ -9,7 +9,7 @@ body {
     align-items: center;
     background-color: #1f2937;
     margin: 0px;
-    padding: 0px 250px;
+    padding: 0px 150px;
 }
 
 .logotext {
@@ -27,7 +27,7 @@ body {
 .herocontainer {
     display: flex;
     justify-content: space-evenly;
-    padding: 50px 200px;
+    padding: 50px 100px;
     background-color: #1f2937;
 }
 
@@ -70,18 +70,21 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* padding: 200px; */
+    margin: 10px 200px 50px 200px;
+    
 }
 
 .imagesandsubtextcontainer {
     display: flex;
+    justify-content: start;
 }
 
 .imageandsubtext {
     display: flex;
     flex-direction: column;
-    width: 200px;
-    height: 200px;
-    padding: 50px;
+    width: 150px;
+    padding: 25px;
 }
 
 .subtext {
