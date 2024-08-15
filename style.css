@@ -123,3 +123,17 @@ body {
     padding: 0px 300px 0px;
     text-align: right;
 }
+
+.callsectioncontainer {
+    display: flex;
+}
+
+.calltoactioncontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.signupbutton {
+    width: 120px;
+    height: 30px;
+}
