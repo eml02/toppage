@@ -54,7 +54,7 @@ body {
     border-radius: 8px;
     font-size: 18px;
     font-weight: bold;
-    border-color: #3882f6;
+    border: 2px solid #3882f6;
     box-shadow: none;
     width: 150px;
     padding: 5px;
@@ -126,14 +126,41 @@ body {
 
 .callsectioncontainer {
     display: flex;
+    background-color: #3882f6;
+    margin: 100px 200px;
+    padding: 40px 90px;
+    justify-content: space-between;
+    border-radius: 10px;
+    align-items: center;
 }
 
 .calltoactioncontainer {
     display: flex;
     flex-direction: column;
+   
+}
+
+.calltoaction {
+    margin: 2px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.signup {
+    margin: 2px;
+    color: #f9faf8;
+    font-weight: 300;
 }
 
 .signupbutton {
     width: 120px;
     height: 30px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    box-shadow: none;
+    font-size: 16px;
+    font-weight: bolder;
 }
+
